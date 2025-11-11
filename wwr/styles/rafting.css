@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #055a05; /* forest green */
+  --primary-color: #1B1F3B; /* forest green */
   --secondary-color: #f4a261; /* warm sand */
   --accent1-color: #264653; /* dark slate blue */
   --accent2-color: #e9c46a; /* light golden yellow */
@@ -52,10 +52,6 @@ article {
 
 }
 
-.socialmedia {
-    width: 32px;
-    
-}
 
 .hero {
     position: relative;
@@ -80,6 +76,7 @@ h1 {
 
 h2 {
     text-align: center;
+    color: #403D58;
 }
 
 .hero article img {
@@ -99,14 +96,12 @@ footer p {
 }
 
 .socialmedia a {
-  display: inline-block;       /* makes the icons line up side by side */
-  margin: 0 8px;               /* space between icons */
+    text-decoration: none;     
 }
 
 .socialmedia img {
   width: 40px;
   height: 40px;
-  border-radius: 50%;          /* makes them circular */
-  vertical-align: middle;      /* keeps them aligned properly */
-  transition: transform 0.3s;
+  display: inline-block;       /* makes the icons line up side by side */
+  margin: 0 8px; 
 }
