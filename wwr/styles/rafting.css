@@ -38,7 +38,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-article {
+.hero article {
   position: absolute;
   bottom: 15px; /* pushes the box upward from the bottom */
   left: 48%;
@@ -63,7 +63,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
