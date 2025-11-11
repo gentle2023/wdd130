@@ -24,7 +24,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -38,8 +38,18 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
+article {
+  position: absolute;
+  bottom: 15px; /* pushes the box upward from the bottom */
+  left: 48%;
+  transform: translateX(-50%);
+  background-color: var(--accent2-color, #e9c46a);
+  padding: 16px;
+  gap: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  width: 900px;
+  opacity: 0.9;
+
 }
 
 .socialmedia {
@@ -68,7 +78,35 @@ h1 {
   color: #fff; 
 }
 
+h2 {
+    text-align: center;
+}
+
 .hero article img {
     float: right;
-    width: 125px;
+    width: 100px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px gray;
+}
+
+footer {
+   padding: 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.socialmedia a {
+  display: inline-block;       /* makes the icons line up side by side */
+  margin: 0 8px;               /* space between icons */
+}
+
+.socialmedia img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;          /* makes them circular */
+  vertical-align: middle;      /* keeps them aligned properly */
+  transition: transform 0.3s;
 }
