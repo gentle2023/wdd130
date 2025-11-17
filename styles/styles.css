@@ -35,15 +35,17 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 main {
-    max-width: 960px;
+    max-width: 850px;
 }
 
 aside {
-width: 250px;
-padding: 16px;
+width: 20em;
+text-align: center;
+position: relative;
 }
 
 aside img {
@@ -53,7 +55,7 @@ aside img {
 
 aside h2 {
   position: absolute;
-  left: 50px;
+  left: 90px;
 }
 
 p {
