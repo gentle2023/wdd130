@@ -12,6 +12,11 @@
     --border: 1px solid black;
 }
 
+body {
+    font-size: 16px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
 header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
@@ -68,14 +73,9 @@ grid-column: 1/2;
 grid-row: 1/2;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
-
 aside h2 {
   position: absolute;
-  left: 90px;
+  left: 45px;
 }
 
 p {
@@ -91,8 +91,19 @@ footer {
 /* Class Selectors */
 
 .box {
-  margin-top: 1rem;
+  margin: 1rem;
   padding: 1rem;
-  color: #000;
-  list-style: none;
+  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: #eee;
+ 
+
+  
 }
+
+.box img {
+    width: 200px;
+    height: auto;
+ 
+}
+
+
