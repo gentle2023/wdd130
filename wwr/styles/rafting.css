@@ -191,13 +191,13 @@ footer p {
     color: white;
 }
 
-.social-icons {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
 
-.social-icons img {
+.socialmedia img {
     width: 35px;
     height: 35px;
-    background: white;
+    
    }
