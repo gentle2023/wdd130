@@ -53,26 +53,48 @@
                     <input type="email" placeholder="Placeholder">
 
                     <label>Message Purpose</label>
-                    <div class="radio-group">
-                        <label><input type="radio" name="purpose" checked> General Inquiry</label>
-                        <label><input type="radio" name="purpose"> Reservation Question</label>
-                        <label><input type="radio" name="purpose"> Website Suggestion</label>
-                    </div>
+                    <label><input type="radio" name="purpose" value="general" checked> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
 
-                    <label>Message</label>
-                    <textarea placeholder="Type here."></textarea>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type your message here..."
+                        required></textarea>
 
                     <label class="checkbox">
-                        <input type="checkbox">
-                        Please Subscribe me to the monthly newsletter
+                        <input type="checkbox" name="subscribe" value="yes">
+                        Subscribe me to the monthly newsletter
                     </label>
+
 
                     <button type="submit">Get in Touch!</button>
                 </form>
 
             </div>
         </div>
+        <div class="team-section">
+            <h2>We Are Here to Serve You</h2>
 
+            <div class="profile-container">
+
+                <div class="profile-card">
+                    <div class="profile-img"></div>
+                    <p>Employee Profile</p>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-img"></div>
+                    <p>Employee Profile</p>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-img"></div>
+                    <p>Employee Profile</p>
+                </div>
+
+            </div>
+        </div>
     </main>
     <footer>
         <p> &copy; 2025 White Water Rafting | Ijeoma Ani</p>

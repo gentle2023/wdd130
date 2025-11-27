@@ -292,3 +292,56 @@ button {
 button:hover {
     background: #ccc;
 }
+
+/* Team Section */
+
+.team-section {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 30px;
+    width: 980px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.team-section h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.profile-img::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: #bbb;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.profile-card p {
+    font-size: 14px;
+    font-weight: 600;
+}
