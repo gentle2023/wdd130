@@ -43,33 +43,51 @@
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-
                 <!-- Contact Form -->
                 <form class="contact-form">
-                    <label>Name</label>
-                    <input type="text" placeholder="Placeholder">
+                    <!-- Name -->
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
 
-                    <label>Email</label>
-                    <input type="email" placeholder="Placeholder">
+                    <!-- Email -->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
 
-                    <label>Message Purpose</label>
-                    <label><input type="radio" name="purpose" value="general" checked> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                    <!-- Message Purpose -->
+                    <fieldset>
+                        <legend>Message Purpose</legend>
 
+                        <label for="purpose-general">
+                            <input type="radio" id="purpose-general" name="purpose" value="general" checked>
+                            General Inquiry
+                        </label>
 
+                        <label for="purpose-reservation">
+                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+
+                        <label for="purpose-website">
+                            <input type="radio" id="purpose-website" name="purpose" value="website">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
+
+                    <!-- Message -->
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="5" placeholder="Type your message here..."
                         required></textarea>
 
-                    <label class="checkbox">
-                        <input type="checkbox" name="subscribe" value="yes">
+                    <!-- Newsletter Checkbox -->
+                    <label class="checkbox" for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
                         Subscribe me to the monthly newsletter
                     </label>
 
-
+                    <!-- Submit button -->
                     <button type="submit">Get in Touch!</button>
                 </form>
+
 
             </div>
         </div>
