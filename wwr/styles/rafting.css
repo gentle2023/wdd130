@@ -18,8 +18,8 @@ header {
     align-items: center;
     gap: 10px;
     padding: 10px;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: #1B1F3B;
+    color: #e9c46a;
 }
 
 header img {
@@ -31,7 +31,7 @@ header img {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: #264653;
 }
 
 header, main, footer {
@@ -60,7 +60,7 @@ header nav a {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: #e9c46a;
 }
 
 nav, p, section, article {
@@ -73,7 +73,7 @@ nav, p, section, article {
   bottom: 15px; 
   left: 48%;
   transform: translateX(-50%);
-  background-color: var(--accent2-color, #e9c46a);
+  background-color: #e9c46a;
   padding: 16px;
   gap: 16px;
   box-shadow: 0 4px 8px #333;
@@ -99,7 +99,7 @@ nav, p, section, article {
   padding: 16px;
   text-align: center;
   opacity: 0.7;
-  background-color: var(--accent1-color);
+  background-color: #264653;
   color: #fff; 
 }
 
@@ -111,8 +111,8 @@ h2 {
 .hero article img {
     float: right;
     width: 100px;
-    border: 1px solid black;
-    box-shadow: 0 0 15px gray;
+    border: 1px solid #000;
+    box-shadow: 0 0 15px #777;
 }
 
 .history {
@@ -188,7 +188,7 @@ footer p {
     text-align: center;
     margin: 0;
     font-size: 17px;
-    color: white;
+    color: #fff;
 }
 
 .socialmedia {
