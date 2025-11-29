@@ -326,13 +326,10 @@ button:hover {
     text-align: center;
 }
 
-.profile-img {
-    width: 100px;
-    height: 100px;
-    background: #ddd;
-    border-radius: 5px;
-    margin-bottom: 8px;
-    position: relative;
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .profile-img::after {
