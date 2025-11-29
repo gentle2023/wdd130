@@ -76,7 +76,7 @@ nav, p, section, article {
   background-color: var(--accent2-color, #e9c46a);
   padding: 16px;
   gap: 16px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px #333;
   width: 900px;
   opacity: 0.9;
 
@@ -305,7 +305,7 @@ button:hover {
     border: 2px solid #ccc;
     padding: 30px;
     width: 980px;
-    background: white;
+    background: #ffffff;
     margin-bottom: 20px;
 }
 
