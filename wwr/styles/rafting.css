@@ -177,7 +177,7 @@ figcaption {
 
 
 footer {
-    background-color: #2c2e2e;   
+    background-color: #111111;   
     padding: 15px 20px;
     display: grid;
     grid-template-columns: 1fr auto;
@@ -209,6 +209,10 @@ footer p {
     margin: auto;
     text-align: center;
     margin-top: 20px;
+}
+
+.container h1 {
+    color: #111111;
 }
 
 .contact-info {
