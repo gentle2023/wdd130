@@ -177,7 +177,7 @@ figcaption {
 
 
 footer {
-    background-color: #111111;   
+    background-color: #2a2a2a;   
     padding: 15px 20px;
     display: grid;
     grid-template-columns: 1fr auto;
@@ -188,7 +188,7 @@ footer p {
     text-align: center;
     margin: 0;
     font-size: 17px;
-    color: #fdfcfa;
+    color: #ffffff;
 }
 
 .socialmedia {
