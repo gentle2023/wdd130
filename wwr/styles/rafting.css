@@ -39,7 +39,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-header nav, .navbar {
+header nav {
     display: flex;
     justify-content: center;
     gap: 0;
@@ -47,7 +47,7 @@ header nav, .navbar {
     width: 100%;
 }
 
-header nav a, .navbar a {
+header nav a {
     text-decoration: none;
     background-color: #69655a;
     color: white;
@@ -501,6 +501,7 @@ button:hover {
     background: #fff;
     padding: 3rem 1rem;
     text-align: center;
+    border: 1px solid #777;
 }
 
 .newsletter-form {
