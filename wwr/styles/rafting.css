@@ -525,7 +525,7 @@ button:hover {
 
 .testimonial-section {
       position: relative;
-      background-image: url('images/waterfall.jpg'); /* Replace with your image */
+      background-image: url('./images/waterfall.jpg'); 
       background-size: cover;
       background-position: center;
       height: 500px;
