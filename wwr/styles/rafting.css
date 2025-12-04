@@ -417,20 +417,6 @@ button:hover {
   margin-top: 20px;
 }
 
-.btn {
-  padding: 12px 24px;
-  background-color: #1f6f8b;
-  color: #ffffff;
-  font-weight: 600;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background-color: #155d72;
-}
-
 /* CTA Section */
 .cta {
     text-align: center;
@@ -440,7 +426,7 @@ button:hover {
     border: 2px solid #333;
 }
 
-.cta .btn {
+.cta .btn, .btn  {
     display: inline-block;
     margin-top: 20px;
     padding: 14px 30px;
