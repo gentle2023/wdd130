@@ -39,15 +39,15 @@ header, main, footer {
     margin: 0 auto;
 }
 
-header nav {
+header nav, .navbar {
     display: flex;
     justify-content: center;
     gap: 0;
     padding: 10px 20px;
-    width: 98%;
+    width: 100%;
 }
 
-header nav a {
+header nav a, .navbar a {
     text-decoration: none;
     background-color: #69655a;
     color: white;
@@ -358,32 +358,6 @@ button:hover {
     width: 100%;
 }
 
-.navbar {
-  width: 100%;
-  overflow: auto;
-}
-
-/* Navigation links */
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 19px;
-  width: 25%; 
-  text-align: center; 
-}
-
-/* Add a background color on mouse-over */
-.navbar a:hover {
-  color: #f3a32b;
-}
-
-/* Style the current/active link */
-.navbar a.active {
-  color: #e9a513;
-  font-weight: bold;
-}
 
 /* Style the current/active link */
 .hero-container {
